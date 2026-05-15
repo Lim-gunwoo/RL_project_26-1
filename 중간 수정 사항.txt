@@ -1,0 +1,22 @@
+1.
+state 수정
+binance 더 촘촘하게
+cash_ratio -> |max(portfolio_value) - 현재 portfolio|
+
+2.
+수수료 원 단위로 수정
+action에서 sell은 고려 X
+구매 수량 수는 max trade 수를 튜닝하는 걸로 구현 가능
+
+3.
+reward는 수익률로만 report는 다른 값들도 가능
+
+4.
+모델은 계속 튜닝
+
+5.
+Baseline 수정 필요: 승률 보다 profit이 가장 중요함/구매 시점도 의미가 있음
+
+6.
+moving average의 window 크기도 수정
+online으로도 가능한지 파악(새로운 정보를 update, 옛날 정보를 삭제)
